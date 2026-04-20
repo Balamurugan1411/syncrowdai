@@ -3,12 +3,13 @@ import { LayoutDashboard, Compass, LineChart, BellRing, FastForward, Map, Shield
 
 export default function Sidebar({ activeTab, setActiveTab }) {
   const navItems = [
-    { id: 'command', label: 'Command Center', icon: <LayoutDashboard size={18} /> },
+    { id: 'command', label: 'Dashboard', icon: <LayoutDashboard size={18} /> },
     { id: 'navigation', label: 'Smart Navigation', icon: <Compass size={18} /> },
     { id: 'analytics', label: 'Analytics', icon: <LineChart size={18} /> },
-    { id: 'alerts', label: 'Alerts & Incidents', icon: <BellRing size={18} /> },
-    { id: 'ai', label: 'AI Actions', icon: <Map size={18} /> },
-    { id: 'prediction', label: 'Prediction Mode', icon: <FastForward size={18} /> }
+    { id: 'notifications', label: 'Notification Hub', icon: <BellRing size={18} /> },
+    { id: 'accessibility', label: 'Accessibility', icon: <ShieldCheck size={18} /> },
+    { id: 'alerts', label: 'Alerts', icon: <BellRing size={18} /> },
+    { id: 'settings', label: 'Syn Engine', icon: <LayoutDashboard size={18} /> }
   ];
 
   return (

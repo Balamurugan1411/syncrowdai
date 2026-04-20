@@ -2,21 +2,10 @@ import React from 'react';
 import { Bell, Mail, Settings, UserCircle, Users } from 'lucide-react';
 
 export default function TopNavigationBar({ 
-  activeTab, 
-  setActiveTab, 
   predictionHorizon, 
   setPredictionHorizon, 
   onPredictToggle 
 }) {
-  const tabs = [
-    { id: 'command', label: 'Dashboard' },
-    { id: 'navigation', label: 'Smart Navigation' },
-    { id: 'analytics', label: 'Analytics' },
-    { id: 'notifications', label: 'Notification Hub' },
-    { id: 'accessibility', label: 'Accessibility' },
-    { id: 'alerts', label: 'Alerts' },
-    { id: 'settings', label: 'Syn Engine' }
-  ];
 
   return (
     <div className="w-full h-16 flex items-center justify-between px-6 border-b border-[#1e293b] bg-gradient-to-r from-[#0c121e] to-[#161e2e] shadow-[0_4px_20px_rgba(0,0,0,0.5)] z-50">
@@ -43,23 +32,6 @@ export default function TopNavigationBar({
         </div>
       </div>
 
-      {/* Center: Navigation Links */}
-      <div className="flex items-center space-x-6 h-full">
-        {tabs.map(tab => (
-          <button
-            key={tab.id}
-            onClick={() => setActiveTab(tab.id)}
-            className={`h-full relative px-1 text-[11px] font-bold uppercase tracking-widest transition-all duration-300 ${
-              activeTab === tab.id ? 'text-white' : 'text-slate-500 hover:text-slate-300'
-            }`}
-          >
-            {tab.label}
-            {activeTab === tab.id && (
-              <div className="absolute bottom-0 left-0 w-full h-[2px] bg-cyan-400 shadow-[0_0_15px_rgba(34,211,238,1)]"></div>
-            )}
-          </button>
-        ))}
-      </div>
 
       {/* Right: Time Travel & Actions */}
       <div className="flex items-center space-x-6">

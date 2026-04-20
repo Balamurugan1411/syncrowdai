@@ -13,6 +13,7 @@ import FacilitiesView from '../views/FacilitiesView';
 import NotificationHub from '../views/NotificationHub';
 import AccessibilityManager from '../views/AccessibilityManager';
 import SynAssistant from './SynAssistant';
+import Sidebar from './Sidebar';
 
 export default function Dashboard() {
   const { 
@@ -53,15 +54,17 @@ export default function Dashboard() {
 
       {/* New Top Navigation Bar */}
       <TopNavigationBar 
-         activeTab={activeTab} 
-         setActiveTab={setActiveTab} 
          predictionHorizon={predictionHorizon}
          setPredictionHorizon={setPredictionHorizon}
          onPredictToggle={togglePrediction}
       />
       
-      {/* Main Content Area */}
-      <div className="flex-1 overflow-y-auto custom-scrollbar p-6 z-10 relative">
+      <div className="flex flex-1 overflow-hidden">
+        {/* Sidebar Navigation */}
+        <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
+
+        {/* Main Content Area */}
+        <div className="flex-1 overflow-y-auto custom-scrollbar p-6 z-10 relative">
          <div className="h-full w-full max-w-[1800px] mx-auto flex flex-col">
             <div className="flex-grow">
                {activeTab === 'command' && (
@@ -121,6 +124,7 @@ export default function Dashboard() {
                </div>
             </footer>
          </div>
+      </div>
       </div>
 
       {/* Wow Factor: Neural Sync Transition Overlay */}
