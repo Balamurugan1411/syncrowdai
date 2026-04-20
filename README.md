@@ -1,7 +1,5 @@
 # 🏟️ SynCrowd AI: Next-Gen "God-Mode" Stadium Orchestration
 
-**🌐 Live Demo:** [https://Balamurugan1411.github.io/syncrowdai/](https://Balamurugan1411.github.io/syncrowdai/)
-
 
 > **SynCrowd AI** is a market-leading cognitive orchestration engine designed for massive stadium environments. Developed for **Google PromptWars Virtual**, it evolves beyond reactive monitoring into a proactive, interactive "God-Mode" command center, surpassing industry benchmarks in predictive intelligence and operational control.
 
