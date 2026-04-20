@@ -14,19 +14,9 @@ export default function Sidebar({ activeTab, setActiveTab }) {
 
   return (
     <aside className="w-64 glass-panel border-l-0 border-y-0 rounded-none rounded-r-[30px] flex flex-col h-full sticky top-0 left-0 overflow-y-auto">
-      {/* Brand */}
-      <div className="p-6 flex items-center space-x-3 mb-4 mt-2">
-        <div className="p-2 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg shadow-lg">
-           <Map className="w-6 h-6 text-white" />
-        </div>
-        <div>
-          <h2 className="text-xl font-bold tracking-tight text-white whitespace-nowrap">SynCrowd AI</h2>
-          <p className="text-[10px] font-semibold text-indigo-400 tracking-widest uppercase">Cognitive Orchestration Engine</p>
-        </div>
-      </div>
 
       {/* Navigation */}
-      <nav className="flex-1 px-4 space-y-1.5">
+      <nav className="flex-1 px-4 pt-8 space-y-1.5">
         {navItems.map(item => {
           const isActive = activeTab === item.id;
           return (
