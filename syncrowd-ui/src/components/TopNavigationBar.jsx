@@ -25,9 +25,9 @@ export default function TopNavigationBar({
       <div className="flex items-center space-x-6">
         <div className="flex items-center space-x-3">
           <Users className="text-cyan-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.8)]" size={28} />
-          <div className="flex flex-col">
-             <span className="text-xl font-bold text-white tracking-tight leading-tight">SynCrowd AI</span>
-             <span className="text-[10px] text-slate-400 font-medium tracking-wide uppercase">Cognitive Orchestration Engine</span>
+          <div className="flex flex-col justify-center">
+             <span className="text-xl font-bold text-white tracking-tight whitespace-nowrap leading-none">SynCrowd AI</span>
+             <span className="text-[10px] text-slate-400 font-medium tracking-wide uppercase whitespace-nowrap mt-1">Cognitive Orchestration Engine</span>
           </div>
         </div>
 

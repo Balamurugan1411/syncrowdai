@@ -19,8 +19,8 @@ export default function Sidebar({ activeTab, setActiveTab }) {
            <Map className="w-6 h-6 text-white" />
         </div>
         <div>
-          <h2 className="text-xl font-bold tracking-tight text-white">SynCrowd</h2>
-          <p className="text-[10px] font-semibold text-indigo-400 tracking-widest uppercase">AI Core v2.0</p>
+          <h2 className="text-xl font-bold tracking-tight text-white whitespace-nowrap">SynCrowd AI</h2>
+          <p className="text-[10px] font-semibold text-indigo-400 tracking-widest uppercase">Cognitive Orchestration Engine</p>
         </div>
       </div>
 
