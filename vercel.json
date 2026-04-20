@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd syncrowd-ui && npm install && npm run build",
+  "outputDirectory": "syncrowd-ui/dist",
+  "framework": "vite"
+}
