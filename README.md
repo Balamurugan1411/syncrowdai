@@ -1,11 +1,7 @@
 # 🏟️ SynCrowd AI: Next-Gen "God-Mode" Stadium Orchestration
 
-[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62D)](https://vitejs.dev/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 
-> **SynCrowd AI** is a market-leading cognitive orchestration engine designed for massive stadium environments. It evolves beyond reactive monitoring into a proactive, interactive "God-Mode" command center, surpassing industry benchmarks in predictive intelligence and operational control.
+> **SynCrowd AI** is a market-leading cognitive orchestration engine designed for massive stadium environments. Developed for **Google PromptWars Virtual**, it evolves beyond reactive monitoring into a proactive, interactive "God-Mode" command center, surpassing industry benchmarks in predictive intelligence and operational control.
 
 ---
 
@@ -64,4 +60,4 @@ SynCrowd AI represents the pinnacle of crowd orchestration, blending deep simula
 
 ---
 
-*Developed with ❤️ for the future of Stadium Operations.*
+*Developed for **Google PromptWars Virtual** with ❤️ for the future of Stadium Operations.*
